@@ -1,0 +1,33 @@
+.outer_most{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer{
+    border: solid;
+    height: 600px;
+    width: 800px;
+}
+.row_1{
+    border: solid;
+    height: 80px;
+    width: 800px;
+}
+.row_2{
+    display: flex;
+    border: solid;
+    height : 513px;
+    width: 800px;
+}
+.row2_column_1{
+    border: solid;
+    display: flex;
+    height: 513px;
+    width: 150px;
+}
+.row2_column_2{
+    border: solid;
+    height: 513px;
+    width: 637px;
+}

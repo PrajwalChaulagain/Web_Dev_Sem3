@@ -14,12 +14,13 @@
 }
 
 .navbar{
+    font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80px;
     width: 100%;
-    background-color: brown;
+    background-color: rgb(226, 119, 208);
 }
 
 a{
@@ -36,8 +37,46 @@ li{
 }
 
 .Textt{
-    color: brown;
+    color: rgb(24, 23, 23);
     font-size: 50px;
     text-align: center;
     margin-top: 20%;
+}
+.sidebar{
+    position: fixed;
+    top: 150px;
+    left: 20px;
+    border-radius: 18px;
+    background-color: rgb(224, 127, 211);
+    width: 65px;
+    height: 250px;
+}
+
+.inner_sidebar{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home{
+    width: 35px;
+    height: 35px;
+}
+
+.search{
+    width: 28px;
+    height: 28px;
+}
+
+.user{
+    width: 40px;
+    height: 40px;
+}
+
+.insta{
+    width: 35px;
+    height: 30px;
 }

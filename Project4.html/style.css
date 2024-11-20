@@ -15,6 +15,7 @@
     width: 250px;
     box-shadow: 10px 10px 10px rgb(51, 0, 0);
     background-color: brown;
+    order: calc(5);
 }
 
 .div2{
@@ -23,6 +24,7 @@
     width: 250px;
     box-shadow: 10px 10px 10px rgb(0, 55, 0);
     background-color: green;
+    order: calc(4);
 }
 
 .div3{
@@ -31,6 +33,7 @@
     width: 250px;
     box-shadow: 10px 10px 10px rgb(0, 0, 68);
     background-color: blue;
+    order: calc(4);
 }
 .div4{
     margin-top: 20px;

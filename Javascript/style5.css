@@ -1,0 +1,7 @@
+.outer{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    border: 50px solid transparent;
+
+}

@@ -14,7 +14,6 @@ highlightButton.addEventListener("click", () => {
 
     head.classList.add("highlighted")
     paragraph.classList.add("highlighted")
-
 });
 
 toggleClass.addEventListener("click",()=>{

@@ -1,34 +1,36 @@
-function showDetails(){
-    // Taking the inputs
-    // const namee = document.querySelector('.username').value;
-    const science = Number(document.querySelector('.science').value);
-    const math = Number(document.querySelector('.math').value);
-    const physics = Number(document.querySelector('.physics').value);
-    const chemistry = Number(document.querySelector('.chemistry').value);
-    const computer = Number(document.querySelector('.computer').value);
+const d = new Date();
+let time = d.toLocaleString();
 
-    // Displaying the inputs
-    // const show_name = document.querySelector('.showname');
-    // const science_marks = document.querySelector('.sciencemarks');
-    // const math_marks = document.querySelector('.mathmarks');
-    // const physics_marks = document.querySelector('.physicsmarks');
-    // const chemistry_marks = document.querySelector('.chemistrymarks');
-    // const computer_marks = document.querySelector('.computermarks');
-    const total_marks = document.querySelector('.total');
-    const average_marks = document.querySelector('.averagemarks');
-    const percentage = document.querySelector('.percentage');
+console.log(time);
 
-    const Total_Marks = science + math + physics + chemistry + computer;
-    console.log(Total_Marks);
-    
-    const Average_Marks = Total_Marks/5;
-    console.log(Average_Marks);
 
-    const totalpercentage = (Total_Marks/500)*100;
-    console.log(totalpercentage);
-    
 
-    total_marks.innerHTML = Total_Marks;
-    average_marks.innerHTML = Average_Marks.toFixed(2);
-    percentage.innerHTML = totalpercentage.toFixed(2);
+const showtime = document.querySelector('.date');
+showtime.style.color = "red";
+
+console.log(showtime);
+
+console.log(11 + 11 + "11");
+
+let y = 10;
+console.log(y === "10");
+console.log(y == "10");
+
+
+let a = true;
+b = false;
+console.log();
+
+
+
+let score = 60;
+
+if (score >= 80) {
+    console.log("A");
+} else if(score >= 60 && score < 80){
+    console.log("B");
+} else if(score >= 40 && score < 60){
+    console.log("C");
+} else (score > 0 && score < 40){
+    console.log("D");
 }
